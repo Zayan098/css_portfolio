@@ -1,0 +1,41 @@
+/* Projects.module.css */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  
+  .title {
+    font-size: 4rem;
+    margin: 1.5rem 0;
+  }
+  
+  /* Flex container for images */
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.75rem;
+    flex-wrap: wrap;
+    word-break: break-word;
+  }
+  
+  /* Styling for each image */
+  .image {
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+  
+/* 
+  git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Zayan098/css_portfolio.git
+git push -u origin main */

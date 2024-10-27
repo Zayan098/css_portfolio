@@ -1,0 +1,76 @@
+/* Header.module.css */
+
+.header {
+    background-color: white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+/* #navbar {
+      display: flex;
+      justify-content: space-between;
+      width: 100vw;
+    } */
+  
+  /* Medium screens and up */
+  @media (min-width: 768px) {
+    .header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menuIcon {
+    display: block;
+    cursor: pointer;
+  }
+  
+  /* Medium screens and up */
+  @media (min-width: 768px) {
+    .menuIcon {
+      display: none;
+    }
+  }
+  
+  .navContainer {
+    margin-right: 2rem;
+    margin-top: 0.75rem;
+    display: none;
+  }
+  
+  /* Show navigation on medium screens and up */
+  @media (min-width: 768px) {
+    .navContainer {
+      display: block;
+      margin-top: 0;
+    }
+  }
+  
+  .navContainer.active {
+    display: block;
+  }
+  
+  .navItem {
+    display: block;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  /* Medium screens and up */
+  @media (min-width: 768px) {
+    .navItem {
+      display: inline-block;
+      margin-top: 0;
+      margin-left: 1.5rem;
+    }
+  }
+  

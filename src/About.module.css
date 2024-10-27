@@ -1,0 +1,99 @@
+/* About.module.css */
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Medium screens and up */
+  @media (min-width: 768px) {
+    .section {
+      flex-direction: row;
+      text-align: start;
+    }
+  }
+  
+  .container {
+    margin: 1rem;
+    width: 100%;
+  }
+  
+  /* Small screens and up */
+  @media (min-width: 640px) {
+    .container {
+      margin-left: 3rem;
+    }
+  }
+  
+  /* Medium screens and up */
+  @media (min-width: 768px) {
+    .container {
+      margin-left: 5rem;
+      width: 50%;
+    }
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+  }
+  
+  /* Large screens and up */
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 6rem;
+    }
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  /* Large screens and up */
+  @media (min-width: 1024px) {
+    .subtitle {
+      font-size: 3rem;
+    }
+  }
+  
+  .paragraph {
+    margin-top: 1.25rem;
+  }
+  
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image {
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .skillsContainer {
+    margin-top: 0.75rem;
+    width: 100%;
+    max-width: 75%;
+    word-break: break-word;
+  }
+  
+  .skill {
+    background-color: #d1d5db; /* bg-gray-300 */
+    margin: 0.25rem;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    display: inline-block;
+    border-radius: 0.375rem;
+  }
+  
